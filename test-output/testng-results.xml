@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="23" passed="14" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T11:27:42 IST" name="Suite" finished-at="2024-12-24T11:28:13 IST" duration-ms="30814">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T11:27:42 IST" name="Test" finished-at="2024-12-24T11:28:13 IST" duration-ms="30814">
+      <class name="com.tka.testCases.DashboardTestCases">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:27:51 IST" name="openurl" finished-at="2024-12-24T11:27:56 IST" duration-ms="5015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="CheckCourseName()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:27:56 IST" name="CheckCourseName" finished-at="2024-12-24T11:27:56 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCourseName -->
+        <test-method signature="checkCourseTechnology()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:27:56 IST" name="checkCourseTechnology" finished-at="2024-12-24T11:27:57 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCourseTechnology -->
+        <test-method signature="checkDownloadPageTab()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:27:57 IST" name="checkDownloadPageTab" finished-at="2024-12-24T11:27:58 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDownloadPageTab -->
+        <test-method signature="checkHeading()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:27:58 IST" name="checkHeading" finished-at="2024-12-24T11:27:58 IST" duration-ms="109" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard] but found [Dashboard Courses Offered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard] but found [Dashboard Courses Offered]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.tka.testCases.DashboardTestCases.checkHeading(DashboardTestCases.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeading -->
+        <test-method signature="checkOperatorsPageTab()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:27:58 IST" name="checkOperatorsPageTab" finished-at="2024-12-24T11:27:59 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOperatorsPageTab -->
+        <test-method signature="checkSideMenuName()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:27:59 IST" name="checkSideMenuName" finished-at="2024-12-24T11:27:59 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSideMenuName -->
+        <test-method signature="checkSyllabusJava()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:27:59 IST" name="checkSyllabusJava" finished-at="2024-12-24T11:28:00 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSyllabusJava -->
+        <test-method signature="checkSyllabusPhp()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:28:00 IST" name="checkSyllabusPhp" finished-at="2024-12-24T11:28:01 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSyllabusPhp -->
+        <test-method signature="checkSyllabusPython()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:28:01 IST" name="checkSyllabusPython" finished-at="2024-12-24T11:28:01 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSyllabusPython -->
+        <test-method signature="checkSyllabusSelenium()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:28:01 IST" name="checkSyllabusSelenium" finished-at="2024-12-24T11:28:02 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSyllabusSelenium -->
+        <test-method signature="checkUserPageTab()[pri:0, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:28:02 IST" name="checkUserPageTab" finished-at="2024-12-24T11:28:03 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserPageTab -->
+        <test-method signature="CheckLogoutButton()[pri:100, instance:com.tka.testCases.DashboardTestCases@273e7444]" started-at="2024-12-24T11:28:03 IST" name="CheckLogoutButton" finished-at="2024-12-24T11:28:04 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLogoutButton -->
+      </class> <!-- com.tka.testCases.DashboardTestCases -->
+      <class name="com.tka.testCases.UserTabTestCases">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:com.tka.testCases.UserTabTestCases@7db12bb6]" started-at="2024-12-24T11:28:04 IST" name="openurl" finished-at="2024-12-24T11:28:09 IST" duration-ms="4992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="Checkheading()[pri:0, instance:com.tka.testCases.UserTabTestCases@7db12bb6]" started-at="2024-12-24T11:28:09 IST" name="Checkheading" finished-at="2024-12-24T11:28:09 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkheading -->
+        <test-method signature="checkAddNewUser()[pri:0, instance:com.tka.testCases.UserTabTestCases@7db12bb6]" started-at="2024-12-24T11:28:09 IST" name="checkAddNewUser" finished-at="2024-12-24T11:28:12 IST" duration-ms="3684" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [User Added Successfully] but found [User Added Successfully. You can not see added user.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [User Added Successfully] but found [User Added Successfully. You can not see added user.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.tka.testCases.UserTabTestCases.checkAddNewUser(UserTabTestCases.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddNewUser -->
+        <test-method signature="checkDeleteDefaultUser()[pri:0, instance:com.tka.testCases.UserTabTestCases@7db12bb6]" started-at="2024-12-24T11:28:12 IST" name="checkDeleteDefaultUser" finished-at="2024-12-24T11:28:13 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteDefaultUser -->
+        <test-method signature="checkUserTableHeading()[pri:0, instance:com.tka.testCases.UserTabTestCases@7db12bb6]" started-at="2024-12-24T11:28:13 IST" name="checkUserTableHeading" finished-at="2024-12-24T11:28:13 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserTableHeading -->
+      </class> <!-- com.tka.testCases.UserTabTestCases -->
+      <class name="com.tka.testCases.LoginTestCases">
+        <test-method is-config="true" signature="openurl()[pri:0, instance:com.tka.testCases.LoginTestCases@4efac082]" started-at="2024-12-24T11:27:42 IST" name="openurl" finished-at="2024-12-24T11:27:49 IST" duration-ms="6088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="checkinvalidCredentialMessage(java.lang.String,java.lang.String)[pri:0, instance:com.tka.testCases.LoginTestCases@4efac082]" started-at="2024-12-24T11:27:49 IST" name="checkinvalidCredentialMessage" data-provider="logindata" finished-at="2024-12-24T11:27:51 IST" duration-ms="2383" status="FAIL">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.tka.testCases.LoginTestCases.checkinvalidCredentialMessage(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: checkinvalidCredentialMessage([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)  ,(java.lang.String) 123456,(java.lang.String) false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.tka.testCases.LoginTestCases.checkinvalidCredentialMessage(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: checkinvalidCredentialMessage([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String)  ,(java.lang.String) 123456,(java.lang.String) false]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkinvalidCredentialMessage -->
+      </class> <!-- com.tka.testCases.LoginTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
